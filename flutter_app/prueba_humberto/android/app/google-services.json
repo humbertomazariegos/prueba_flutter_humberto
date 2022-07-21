@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1039179611103",
+    "project_id": "ingreso1-7fb4e",
+    "storage_bucket": "ingreso1-7fb4e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1039179611103:android:dcc2090b8736e5293ce26a",
+        "android_client_info": {
+          "package_name": "com.example.prueba_humberto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1039179611103-i9ffib7vc4j5vb59drlile2nrrh65re3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAACqO1HsuhVZP0HIu5u3yAVYYOHuTWXqw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1039179611103-i9ffib7vc4j5vb59drlile2nrrh65re3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
