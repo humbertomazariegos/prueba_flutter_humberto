@@ -144,16 +144,16 @@ class _LoginScreenState extends State<LoginScreen> {
                           ),
                         ),
                         // SE COMENTA PORQUE NO SE LOGRA TERMINAR EL LOGIN CON EL TOKEN DE GOOGLE
-                        // IconButton(
-                        //   onPressed: () {
-                        //     _authenticateWithGoogle(context);
-                        //   },
-                        //   icon: Image.network(
-                        //     "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1200px-Google_%22G%22_Logo.svg.png",
-                        //     height: 30,
-                        //     width: 30,
-                        //   ),
-                        // ),
+                        IconButton(
+                          onPressed: () {
+                            _authenticateWithGoogle(context);
+                          },
+                          icon: Image.network(
+                            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1200px-Google_%22G%22_Logo.svg.png",
+                            height: 30,
+                            width: 30,
+                          ),
+                        ),
                         const SizedBox(
                           height: 15,
                         ),

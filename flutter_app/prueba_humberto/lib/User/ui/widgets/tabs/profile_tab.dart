@@ -5,7 +5,7 @@ import 'package:prueba_humberto/bloc/auth/auth_event.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:prueba_humberto/constants.dart';
+import 'package:prueba_humberto/utils/constants.dart';
 
 class ProfileTab extends StatelessWidget {
   const ProfileTab({Key? key}) : super(key: key);

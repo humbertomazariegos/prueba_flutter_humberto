@@ -5,7 +5,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:prueba_humberto/Login/ui/screens/login_screen.dart';
 import 'package:prueba_humberto/User/ui/screens/user_screen.dart';
 import 'package:prueba_humberto/bloc/auth/auth_bloc.dart';
-import 'package:prueba_humberto/constants.dart';
+import 'package:prueba_humberto/utils/constants.dart';
 import 'package:prueba_humberto/data/repositories/auth_repository.dart';
 import 'package:prueba_humberto/firebase_options.dart';
 

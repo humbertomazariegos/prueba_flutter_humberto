@@ -29,6 +29,13 @@
             {
               "client_id": "1039179611103-i9ffib7vc4j5vb59drlile2nrrh65re3.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "1039179611103-uoeogcech3c6h51gm58inedembthsqis.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.pruebaHumberto"
+              }
             }
           ]
         }

@@ -93,7 +93,8 @@ class _RegisterScreenState extends State<RegisterScreen> {
                                 autovalidateMode:
                                     AutovalidateMode.onUserInteraction,
                                 validator: (value) {
-                                  return value == null
+                                  print(value);
+                                  return value == ""
                                       ? 'El nombre es requerido'
                                       : null;
                                 },
@@ -121,6 +122,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                               ),
                               TextFormField(
                                 controller: _passwordController,
+                                obscureText: true,
                                 decoration: const InputDecoration(
                                   hintText: "Password",
                                   border: OutlineInputBorder(),
@@ -180,17 +182,17 @@ class _RegisterScreenState extends State<RegisterScreen> {
                         ),
                       ),
                       // SE COMENTA PORQUE NO SE LOGRA TERMINAR EL LOGIN CON EL TOKEN DE GOOGLE
-                      // const Text("Or"),
-                      // IconButton(
-                      //   onPressed: () {
-                      //     _authenticateWithGoogle(context);
-                      //   },
-                      //   icon: Image.network(
-                      //     "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1200px-Google_%22G%22_Logo.svg.png",
-                      //     height: 30,
-                      //     width: 30,
-                      //   ),
-                      // ),
+                      const Text("Or"),
+                      IconButton(
+                        onPressed: () {
+                          _authenticateWithGoogle(context);
+                        },
+                        icon: Image.network(
+                          "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1200px-Google_%22G%22_Logo.svg.png",
+                          height: 30,
+                          width: 30,
+                        ),
+                      ),
                     ],
                   ),
                 ),

@@ -2,7 +2,7 @@ import 'package:prueba_humberto/User/ui/widgets/tabs/home_tab.dart';
 import 'package:prueba_humberto/User/ui/widgets/tabs/profile_tab.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:prueba_humberto/constants.dart';
+import 'package:prueba_humberto/utils/constants.dart';
 
 class UserScreen extends StatefulWidget {
   const UserScreen({Key? key}) : super(key: key);

@@ -20,6 +20,7 @@ class MailRepository {
     if (response.statusCode == 200) {
       return "OK";
     } else {
+      print(response.statusCode);
       return "ERROR";
     }
   }
